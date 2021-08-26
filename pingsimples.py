@@ -11,6 +11,8 @@ def pingSimple():
     os.system('ping -n 10 {}'.format(host))
     print ("-"*80)
 
+
+#MongoDB SENDS
     x = datetime.datetime.now()
     def teste():
         client= MongoClient("localhost",27017)
